@@ -11,7 +11,7 @@
   padding-bottom: 48px;
 }
 .type-739 .block-main-product a:hover {
-  color: #fcb800;
+  color: blue;
 }
 .type-739 .block-main-product .title {
   display: inline-block;
@@ -50,7 +50,7 @@
   transition: transform 0.9s ease;
   background-color: #fff;
   margin-top: 90px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .type-739 .banner .swiper-slide .block .discount-percent {
   position: absolute;
@@ -69,7 +69,7 @@
 }
 .type-739 .banner .swiper-slide .block .product-btn {
   position: absolute;
-  bottom: 28%;
+  bottom: 35%;
   right: 27px;
   z-index: 1;
   width: 100%;
@@ -101,8 +101,8 @@
   text-align: left;
 }
 .type-739 .banner .swiper-slide .block .product-item1 a:hover {
-  color: #fcb800;
-  text-decoration: underline;
+  color: blue;
+  text-decoration: none;
 }
 .type-739 .banner .swiper-slide .block .far-item {
   padding: 5px 0;
@@ -125,15 +125,23 @@
 }
 .type-739 .banner .swiper-button-next,
 .type-739 .banner .swiper-container-rtl .swiper-button-prev {
-  margin-right: 44px;
+  margin-right: 60px;
   width: 40px;
   height: 40px;
 }
+.type-739 .banner .swiper-button-next:focus,
+.type-739 .banner .swiper-container-rtl .swiper-button-prev:focus {
+  outline: none;
+}
 .type-739 .banner .swiper-button-prev,
 .type-739 .banner .swiper-container-rtl .swiper-button-next {
-  margin-left: 20px;
+  margin-left: 60px;
   width: 40px;
   height: 40px;
+}
+.type-739 .banner .swiper-button-prev:focus,
+.type-739 .banner .swiper-container-rtl .swiper-button-next:focus {
+  outline: none;
 }
 .type-739 .banner .swipper-btn {
   color: #222;
@@ -144,19 +152,22 @@
   width: 40px;
   height: 40px;
 }
-@media all and (max-width: 480px) {
-  .block-main-product {
-    padding-bottom: 3% !important;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
+@media all and (max-width: 600px) {
+  .swipper-btn .swiper-button-next {
     display: none;
   }
-  .block-product {
+  .swipper-btn .swiper-button-prev {
+    display: none;
+  }
+  .type-739 .block-product a {
+    padding: 0 15px;
+  }
+  .type-739 .banner .swiper-slide .block .far-item {
+    text-align: center;
+  }
+  .type-739 .banner .swiper-slide .block .price {
+    text-align: center;
     float: none;
-    display: inline-block;
-    position: relative;
-    left: 0%;
   }
 }
 @media all and (max-width: 1024px) {

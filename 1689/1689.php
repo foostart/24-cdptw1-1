@@ -22,15 +22,16 @@
     <head>
         <title>1689</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />   
         <link href="<?php echo $url_path ?>/css/1689.css" rel="stylesheet" type="text/css" /> 
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>  
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js"></script>
+        
+
     </head>
     <body>
         <?php include $dir_block.'/1689-content.php'; ?>

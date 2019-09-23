@@ -30,7 +30,7 @@
       start: '#FEF7CD',
       end: '#FF9511'
     },
-    strokeWidth: 4,
+    strokeWidth: 5,
     strokeColor: 'black',
     initialRating: 0,
     starSize: 40,
