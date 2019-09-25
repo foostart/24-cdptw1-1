@@ -28,8 +28,6 @@
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js"></script>
         
 
     </head>

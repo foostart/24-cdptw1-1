@@ -29,6 +29,8 @@
             </div>
          </div>
          <div class="col-md-5 col-sm-12 col-xs-12">
+            
+         </div>
       </div>
       <div class="type-1673-close-popup">
          <i id="close-popup" class="fa fa-times" aria-hidden="true"></i>
