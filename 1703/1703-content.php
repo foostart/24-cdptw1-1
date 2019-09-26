@@ -13,7 +13,7 @@
       <div class="row">
          <div class="col-md-7 col-sm-12 col-xs-12">
             <div class="type-1673-title-popup">
-               <h3 class="type-1673-popup-sale">Get <span>25%</span> Discount</h3>
+               <h3>Get <span>25%</span> Discount</h3>
             </div>
             <div class="type-1673-popup-info">
                <p class="type-1673-popup-content">Subscribe to the Martfury mailing list to receive updates on new arrivals, special offers and our promotions.</p>
