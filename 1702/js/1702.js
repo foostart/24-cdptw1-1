@@ -69,17 +69,6 @@ $(document).ready(function(){
       $(stars[i]).addClass('selected');
     }
     
-    // JUST RESPONSE (Not needed)
-    var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
-    var msg = "";
-    if (ratingValue > 1) {
-        msg = "Thanks! You rated this " + ratingValue + " stars.";
-    }
-    else {
-        msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
-    }
-    responseMessage(msg);
-    
   });
   
   
