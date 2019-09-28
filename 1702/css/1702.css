@@ -218,7 +218,9 @@
   .block-main-product {
     padding-bottom: 3% !important;
   }
-  .swiper-button-next,
+  .swiper-button-next {
+    display: none;
+  }
   .swiper-button-prev {
     display: none;
   }

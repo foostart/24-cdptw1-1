@@ -1,4 +1,5 @@
-var mySwiper = new Swiper ('.swiper-container', {
+$(document).ready(function() {
+  var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -33,6 +34,7 @@ var mySwiper = new Swiper ('.swiper-container', {
       el: '.swiper-scrollbar',
     },
   })
+});
 $(document).ready(function(){
   
   /* 1. Visualizing things on Hover - See next part for action on click */

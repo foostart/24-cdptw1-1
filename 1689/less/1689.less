@@ -1,5 +1,11 @@
+@white-color: #fff;
+@color_1: #000;
+@color_2: #FFB800;
+@color_3: #999;
+@color_4: #555;
+@background_color_3: #e7e7e7;
+@border_color_1: #FFF;
 .type-739{
-    @white-color: #fff;
     box-sizing: border-box;
     background-position: center center;
     background-size: cover;
@@ -285,18 +291,17 @@
     }
 }
 
-
-@media only screen and (max-width: 1024px){ 
-   .block-main-product {
+@media only screen and (max-width: 1024px) {
+    .block-main-product {
         padding-bottom: 3% !important;
-      
     }
-
-     .swiper-button-next, .swiper-button-prev {
+    .swiper-button-next {
         display: none;
     }
-
-      .block-product {
+    .swiper-button-prev {
+        display: none;
+    }
+    .block-product {
         float: none !important;
         display: inline-block !important;
         position: relative;
