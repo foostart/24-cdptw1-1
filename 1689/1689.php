@@ -26,10 +26,9 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />   
         <link href="<?php echo $url_path ?>/css/1689.css" rel="stylesheet" type="text/css" /> 
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        
-
     </head>
     <body>
         <?php include $dir_block.'/1689-content.php'; ?>

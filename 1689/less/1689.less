@@ -9,34 +9,107 @@
 
     .block-main-product {
             border-bottom: 1px solid  #aba6a6;
-            padding-bottom:40px;
+            padding-bottom:21px;
             a:hover {
                 color: #fcb800;
             }
-            .title {            
-                display: inline-block;
-                font-size: 2.4rem;
-                float: left;
-                
+            .navbar-default {
+                border-color: @border_color_1;
+                .navbar-brand {
+                    color: @color_1;
+                    &:hover {
+                        color: @color_2;
+                    }
+                }
+                .navbar-nav {
+                    float: right;
+                    >.active {
+                        >a {
+                            color: @color_1;
+                        }
+                    }
+                    >li {
+                        >a {
+                            display: flex;
+                            align-items: center;
+                            color: #000;
+                            &:hover {
+                                color: #fcb800;
+                            }
+                            &:focus {
+                                color: #fcb800;
+                            }
+                        }
+                    }
+                    .open {
+                        .dropdown-menu {
+                            >li {
+                                >a {
+                                    &:hover {
+                                        color: @color_1;
+                                    }
+                                    &:focus {
+                                        color: @color_1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    >.open {
+                        >a {
+                            color: @color_4;
+                            background-color: @background_color_3;
+                            &:hover {
+                                color: @color_4;
+                                background-color: @background_color_3;
+                            }
+                            &:focus {
+                                color: @color_4;
+                                background-color: @background_color_3;
+                            }
+                        }
+                    }
+                }
+            }
+            .dropdown-menu {
+                >li {
+                    >a {
+                        color: @color_1;
+                        &:hover {
+                            color: @color_4 !important;
+                        }
+                    }
+                }
+                background-color: @background_color_1;
+            }
+            @media (max-width:768px) {
+                .navbar-default {
+                    .navbar-nav {
+                        float: left;
+                        .open {
+                            .dropdown-menu {
+                                >li {
+                                    >a {
+                                        &:hover {
+                                            color: @color_1 !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .dropdown-menu {
+                    >li {
+                        >a {
+                            &:hover {
+                                color: @color_1 !important;
+                            }
+                        }
+                    }
+                }
             }
         }
-
-    .block-main-product a {
-        float: left;
-        text-decoration: none;
-        color:#000;        
-        }
-
-    .block-product {
-        float: right;
-        }
-
-    .block-product a {
-            padding: 0 20px;
-            text-decoration: none;
-            color: #000;
-        }  
-
     .banner{
         text-align: center;
         overflow: hidden;

@@ -11,15 +11,34 @@
  <div class="type-739">
    <div class="container">
       <div class="block-main-product">
-         <div class="title">
-            <a href="#">Home Electronics</a>
-         </div>
-         <div class="block-product"> 
-            <a href="#"> Smart TV </a>
-            <a href="#"> LED TVs </a>
-            <a href="#"> Air Conditions </a>
-            <a href="#"> LG Washing Machines</a>
-         </div>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		    <div class="container">
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		                <span class="sr-only">Đây là menu mobile</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="#">Home Electronics</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+		            <ul class="nav navbar-nav">
+		                <li><a href="#">Smart TV</a></li>
+		                <li class="dropdown">
+			                <a href="#" class="dropdown-toggle" data-toggle="dropdown">LED TVs<span class="caret"></span></a>
+			                <ul class="dropdown-menu" role="menu">
+			                    <li><a href="#">LED TVs 1</a></li>
+			                    <li><a href="#">LED TVs 2</a></li>
+			                    <li><a href="#">LED TVs 3</a></li>
+			                </ul>
+			            </li>
+		                <li><a href="#">Air Conditions</a></li>
+		                <li><a href="#"> LG Washing Machines</a></li>     
+		            </ul>
+		        </div><!--/.nav-collapse -->
+		    </div>
+		</nav>
       </div>
    </div>
    <div class="banner">

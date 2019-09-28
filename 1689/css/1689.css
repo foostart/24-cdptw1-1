@@ -8,28 +8,74 @@
 }
 .type-739 .block-main-product {
   border-bottom: 1px solid #aba6a6;
-  padding-bottom: 40px;
+  padding-bottom: 21px;
 }
 .type-739 .block-main-product a:hover {
   color: #fcb800;
 }
-.type-739 .block-main-product .title {
-  display: inline-block;
-  font-size: 2.4rem;
-  float: left;
+.type-739 .block-main-product .navbar-default {
+  border-color: ;
 }
-.type-739 .block-main-product a {
-  float: left;
-  text-decoration: none;
-  color: #000;
+.type-739 .block-main-product .navbar-default .navbar-brand {
+  color: ;
 }
-.type-739 .block-product {
+.type-739 .block-main-product .navbar-default .navbar-brand:hover {
+  color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav {
   float: right;
 }
-.type-739 .block-product a {
-  padding: 0 20px;
-  text-decoration: none;
+.type-739 .block-main-product .navbar-default .navbar-nav >.active >a {
+  color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >li >a {
+  display: flex;
+  align-items: center;
   color: #000;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >li >a:hover {
+  color: #fcb800;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >li >a:focus {
+  color: #fcb800;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav .open .dropdown-menu >li >a:hover {
+  color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav .open .dropdown-menu >li >a:focus {
+  color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >.open >a {
+  color: ;
+  background-color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >.open >a:hover {
+  color: ;
+  background-color: ;
+}
+.type-739 .block-main-product .navbar-default .navbar-nav >.open >a:focus {
+  color: ;
+  background-color: ;
+}
+.type-739 .block-main-product .dropdown-menu {
+  background-color: ;
+}
+.type-739 .block-main-product .dropdown-menu >li >a {
+  color: ;
+}
+.type-739 .block-main-product .dropdown-menu >li >a:hover {
+  color:  !important;
+}
+@media (max-width: 768px) {
+  .type-739 .block-main-product .navbar-default .navbar-nav {
+    float: left;
+  }
+  .type-739 .block-main-product .navbar-default .navbar-nav .open .dropdown-menu >li >a:hover {
+    color:  !important;
+  }
+  .type-739 .block-main-product .dropdown-menu >li >a:hover {
+    color:  !important;
+  }
 }
 .type-739 .banner {
   text-align: center;

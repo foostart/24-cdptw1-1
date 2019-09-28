@@ -11,15 +11,34 @@
  <div class="type-739">
    <div class="container">
       <div class="block-main-product">
-         <div class="title">
-               <a href="#">Computers &amp; Technology </a>
-         </div>          
-         <div class="block-product"> 
-            <a href="#"> Laptop </a>
-            <a href="#"> Desktop PC </a>
-            <a href="#"> Headphones </a>
-            <a href="#"> PC Gaming </a>
-         </div>
+         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Đây là menu mobile</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Computers & Technology</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Laptop</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktop PC<span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Desktop PC 1</a></li>
+                              <li><a href="#">Desktop PC 2</a></li>
+                              <li><a href="#">Desktop PC 3</a></li>
+                          </ul>
+                      </li>
+                        <li><a href="#">Headphones</a></li>
+                        <li><a href="#">PC Gaming</a></li>     
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
       </div>
    </div>
    <div class="banner">
