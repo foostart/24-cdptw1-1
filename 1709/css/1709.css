@@ -2,13 +2,22 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.type-1782 .sectionTitle {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.type-1782 .sectionTitle h4 {
+  font-weight: bold;
+  font-size: 14px;
+}
 .type-1782 .tab_container {
   border: 1px solid #e9e9e9;
   border-top: none;
   clear: both;
   float: left;
   width: 100%;
-  background: #fff3f3;
+  background: ;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom-right-radius: 7px;
@@ -56,7 +65,7 @@
   color: mediumblue;
 }
 .type-1782 ul.tabs li.active {
-  background: #fff3f3;
+  background: ;
   border-bottom: 1px solid #f7f7f7;
   border-top: 2px solid blue;
   color: mediumblue;

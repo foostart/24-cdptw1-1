@@ -9,13 +9,13 @@
   width: 830px;
   height: auto;
   min-height: 400px;
-  background: url(https://martfury02.magebig.com/media/wysiwyg/magebig/newsletter/newsletter.jpg) right 0 no-repeat;
+  background: url(../images/newsletter.png) right 0 no-repeat;
   background-size: cover;
   margin: 0 auto;
   border-radius: 3px;
   position: relative;
   padding: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-title-popup {
   margin-top: 45px;
@@ -28,14 +28,15 @@
   font-size: 30px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info {
-  padding: 0 40px;
+  padding: 0 30px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-popup-content {
   margin-top: 35px;
   font-size: 19px;
-  padding: 0 15px;
+  padding: 0 7px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-popup-contact {
+  padding: 0 7px;
   margin-top: 30px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-popup-contact .type-1673-popup-email {
@@ -48,7 +49,7 @@
   font-size: 18px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-popup-contact .type-1673-popup-btn {
-  margin-top: 20px;
+  margin-top: 25px;
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
@@ -71,12 +72,10 @@
   background: #fff;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-select-not-show-popup {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-select-not-show-popup #notcheck {
   cursor: pointer;
-  width: 15px;
-  height: 15px;
 }
 .type-1673-introduce .type-1673-popup-introduce .type-1673-popup-info .type-1673-select-not-show-popup .type-1673-label-not-show {
   cursor: pointer;
