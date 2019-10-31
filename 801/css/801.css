@@ -1,6 +1,9 @@
-.my-card {
+.card {
+  margin-bottom: 30px;
+}
+.card .my-card {
   position: absolute;
-  left: 40%;
+  left: 43%;
   top: -20px;
   border-radius: 50%;
 }
